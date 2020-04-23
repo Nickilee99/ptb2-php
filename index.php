@@ -1,5 +1,5 @@
   <script>
-    function getLinkJSONtamgiac() {
+    function getLinkJSONpt2() {
         var a,b,c;
         a = document.getElementById("inputa").value;
         b = document.getElementById("inputb").value;
@@ -15,7 +15,7 @@
     }
     function getData()
     {
-        document.getElementById("txt_apijsontamgiac").innerHTML = window.location.host +"/ptb2-php/api.php/checktamgiac/a/b/c";
+        document.getElementById("txt_apijsonpt2").innerHTML = window.location.host +"/ptb2-php/api.php/checktamgiac/a/b/c";
         document.getElementById("txt_apijsonngayketiep").innerHTML = window.location.host +"/ptb2-php/api.php/checkngayketiep/day/month/year";
     }
 </script>
@@ -40,7 +40,7 @@
     <input type="number" id="inputc" name="lname"><br>
     <input type ="button" name="OKE" value="GETJSON" onclick="getLinkJSONtamgiac()">
 </form>
-<h3>Api json pt2: </h3><h4 id="txt_apijsontamgiac"></h4>
+<h3>Api json pt2: </h3><h4 id="txt_apijsonpt2"></h4>
 <h1>Kiểm tra ngày kế tiếp</h1>
 <form>
     <label for="lname">Nhập ngày</label><br>
