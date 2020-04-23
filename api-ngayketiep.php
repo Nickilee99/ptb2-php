@@ -45,14 +45,14 @@ class api extends restful_api
                    $ngay = 1;
                    $thang =1;
                    $nam = $y +1;
-                   return $data= "Ngay:".$ngay.",thang: ".$thang." nam:".$nam."";
+                   return $data= "Ngay tiep theo la:ngay:".$ngay.",thang: ".$thang.", nam:".$nam."";
                }
                 else 
                 {
                     $ngay = 1;
                     $thang =$m +1;
                     $nam = $y;
-                   return $data= "Ngay:".$ngay.",thang: ".$thang." nam:".$nam."";
+                   return $data= "Ngay tiep theo la:ngay:".$ngay.",thang: ".$thang.", nam:".$nam."";
                 }                
             }
             else
@@ -60,7 +60,7 @@ class api extends restful_api
                     $ngay = $d+1;
                     $thang = $m;
                     $nam = $y;
-                    return $data= "Ngay:".$ngay.",thang: ".$thang." nam:".$nam."";
+                    return $data= "Ngay tiep theo la:ngay:".$ngay.",thang: ".$thang.", nam:".$nam."";
             }
         }
     }
