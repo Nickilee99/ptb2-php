@@ -31,7 +31,7 @@
 <body>
 <h1>Kiem tra tam giac</h1>
 <a>a,b,c</a>
-<form>
+ <form action="loaitamgiac.php" method="get">
     <label for="fname">a</label><br>
     <input type="number" id="inputa" name="fname"><br>
     <label for="lname">b</label><br>
@@ -42,7 +42,7 @@
 </form>
 <h4 id="txt_apijsonpt2"></h4>
 <h1>Kiểm tra ngày kế tiếp</h1>
-<form>
+ <form action="loaitamgiac.php" method="get">
     <label for="lname">Nhập ngày</label><br>
     <input type="number" id="inputday" name="lname"><br>
    <label for="lname">Nhập tháng</label><br>
