@@ -23,13 +23,14 @@ class api extends restful_api {
         {
             $data = array("status" => false, "data" => array());
             return $data;
+        }
         else
         {
             $d=(double)$params[0];
             $m=(double)$params[1];
             $y=(double)$params[2];
             if ($d > 31 || $m >12) {
-            return $data = "Nhap ngay/thang khong dung"
+            return $data = "Nhap ngay/thang khong dung";
 
             } 
             elseif (($d == 31 && $m == 2)||($d == 30 && $m == 2)||($d == 31 && $m == 4)||($d == 31 && $m == 6)||($d == 31 && $m == 9)||($d == 31 && $m == 11)) 
@@ -43,7 +44,7 @@ class api extends restful_api {
                    $ngay = 1;
                    $thang =1;
                    $nam = $y +1;
-                   return $data= "th1"
+                   return $data= "th1";
                }
                 else 
                 {
