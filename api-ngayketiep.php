@@ -21,8 +21,7 @@ class api extends restful_api {
     {
         if(empty($params[0])||empty($params[1])||empty($params[2])||!empty($params[3]))
         {
-            $data = array("status" => false, "data" => array());
-            return $data;
+           return array("status" => false, "data" => array());
         }
         else
         {
