@@ -3,7 +3,8 @@
 
 require 'restful_api.php';
 
-class api extends restful_api {
+class api extends restful_api 
+{
 
     function __construct(){
         parent::__construct();
