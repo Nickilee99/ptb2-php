@@ -9,11 +9,6 @@ class api extends restful_api {
         parent::__construct();
     }
 
-    function checkngayketiep(){
-        if ($this->method == 'GET'){
-            $this->response(200, $this->getngayketiep($this->params));
-        }
-    }
 
     function checktamgiac()
     {
