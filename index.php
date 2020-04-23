@@ -1,5 +1,5 @@
   <script>
-    function getLinkJSONpt2() {
+    function getLinkJSONtamgiac() {
         var a,b,c;
         a = document.getElementById("inputa").value;
         b = document.getElementById("inputb").value;
