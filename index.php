@@ -4,14 +4,14 @@
         a = document.getElementById("inputa").value;
         b = document.getElementById("inputb").value;
         c = document.getElementById("inputc").value;
-        window.open("api.php/checktamgiac/"+a+"/"+b+"/"+c);
+        window.open("api-tamgiac.php/checktamgiac/"+a+"/"+b+"/"+c);
     }
     function getLinkJSONngayketiep() {
         var a,b,c;
         a = document.getElementById("inputday").value;
         b = document.getElementById("inputmonth").value;
         c = document.getElementById("inputyear").value;
-        window.open("api.php/checkngayketiep/"+a+"/"+b+"/"+c);
+        window.open("api-ngayketiep.php/checkngayketiep/"+a+"/"+b+"/"+c);
     }
     function getData()
     {
