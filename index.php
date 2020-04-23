@@ -15,8 +15,8 @@
     }
     function getData()
     {
-        document.getElementById("txt_apijsonpt2").innerHTML = window.location.host +"/ptb2-php/api.php/checktamgiac/a/b/c";
-        document.getElementById("txt_apijsonngayketiep").innerHTML = window.location.host +"/ptb2-php/api.php/checkngayketiep/day/month/year";
+        document.getElementById("txt_apijsonpt2").innerHTML = window.location.host +"/ptb2-php/api-tamgiac.php/checktamgiac/a/b/c";
+        document.getElementById("txt_apijsonngayketiep").innerHTML = window.location.host +"/ptb2-php/api-ngayketiep.php/checkngayketiep/day/month/year";
     }
 </script>
 
