@@ -40,7 +40,7 @@
     <input type="number" id="inputc" name="lname"><br>
     <input type ="button" name="OKE" value="Phan loai" onclick="getLinkJSONtamgiac()">
 </form>
-<h3>Api json pt2: </h3><h4 id="txt_apijsonpt2"></h4>
+<h4 id="txt_apijsonpt2"></h4>
 <h1>Kiểm tra ngày kế tiếp</h1>
 <form>
     <label for="lname">Nhập ngày</label><br>
@@ -51,7 +51,7 @@
     <input type="number" id="inputyear" name="lname"><br>
     <input type ="button" name="OKE" value="Ngay ke tiep" onclick="getLinkJSONngayketiep()">
 </form>
-<h3>Api json pt2: </h3><h4 id="txt_apijsonngayketiep"></h4>
+<h4 id="txt_apijsonngayketiep"></h4>
 <script>getData();</script>
 </body>
 </html>
