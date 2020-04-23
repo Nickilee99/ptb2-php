@@ -19,13 +19,10 @@ class api extends restful_api
         }
     }
 
-    function gettamgiac($params)
+    function gettamgiac($_GET['gettamgiac'])
     {
-        if(empty($params[0])||empty($params[1])||empty($params[2])||!empty($params[3]))
-        {
-            return array("status" => false, "data" => array());
-        }
-        else{
+        if(isset($_GET['gettamgiac']))
+	{
             $a = isset($_GET['a']) ? $_GET['a'] : '';
             $b = isset($_GET['b']) ? $_GET['b'] : '';
             $c = isset($_GET['c']) ? $_GET['c'] : '';
