@@ -38,7 +38,7 @@
     <input type="number" id="inputb" name="lname"><br>
     <label for="lname">c</label><br>
     <input type="number" id="inputc" name="lname"><br>
-    <input type ="button" name="OKE" value="GETJSON" onclick="getLinkJSONpt2()">
+    <input type ="button" name="OKE" value="GETJSON" onclick="getLinkJSONtamgiac()">
 </form>
 <h3>Api json pt2: </h3><h4 id="txt_apijsonpt2"></h4>
 <h1>Kiểm tra ngày kế tiếp</h1>
@@ -49,7 +49,7 @@
     <input type="number" id="inputmonth" name="lname"><br>
    <label for="lname">Nhập năm</label><br>
     <input type="number" id="inputyear" name="lname"><br>
-    <input type ="button" name="OKE" value="GETJSON" onclick="getLinkJSONyear()">
+    <input type ="button" name="OKE" value="GETJSON" onclick="getLinkJSONngayketiep()">
 </form>
 <h3>Api json pt2: </h3><h4 id="txt_apijsonyear"></h4>
 <script>getData();</script>
