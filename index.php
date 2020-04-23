@@ -15,8 +15,8 @@
     }
     function getData()
     {
-        document.getElementById("txt_apijsonpt2").innerHTML = window.location.host +"/CloudPhpEX/api.php/checktamgiac/a/b/c";
-        document.getElementById("txt_apijsonyear").innerHTML = window.location.host +"/CloudPhpEX/api.php/checkngayketiep/day/month/year";
+        document.getElementById("txt_apijsontamgiac").innerHTML = window.location.host +"/CloudPhpEX/api.php/checktamgiac/a/b/c";
+        document.getElementById("txt_apijsonngayketiep").innerHTML = window.location.host +"/CloudPhpEX/api.php/checkngayketiep/day/month/year";
     }
 </script>
 
