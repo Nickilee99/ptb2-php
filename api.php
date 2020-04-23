@@ -33,24 +33,33 @@ class api extends restful_api {
             $a=(double)$params[0];
             $b=(double)$params[1];
             $c=(double)$params[2];
-            if($a + $b<=$c && $a + $c <= $b && $b + $c <= $a)
+            if(($a + $b) > $c && ($b + $c) > $a && ($c + $a) > $b)
             {
-                $data = "Khong phai tam giac";
-                return array("status" => true,"data" => array("result"=>$data));
+               return $data="Day la tam giac thuong";
+            }
+            elseif($a == $b && $b == $c)
+            {
+                return $data = "Day la tam giac deu";
             }
             elseif($a == $b || $a == $c || $c == $b)
             {
-                if($a == $b && $a == $c)
+                if($a * $a == $b * $b + $c * $c || $b * $b == $a * $a + $c * $c || $c * $c == $a * $a + $b *$b)
                 {
-                    $data = "Tam giac deu";
-                    return array("status" => true,"data" => array("result"=>$data));
+                    return $data = "Day la tam giac vuong can";
                 }
                 else
                 {
-                      $data = "Tam giac can";
-                    return array("status" => true,"data" => array("result"=>$data));
+                    return $data = "Day la tam giac can";
                 }
-            }        
+            }
+            elseif($a2==$b2+$c2 || $b2==$a2+$c2 || $c2==$a2+$b2)
+            {
+                return $data = "Day la tam giac vuong";
+            }
+            else
+            {
+                return $data = "Day la tam giac thuong";
+            }
         }
     }
 
