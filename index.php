@@ -7,7 +7,7 @@
         window.open("api.php/checktamgiac/"+a+"/"+b+"/"+c);
     }
     function getLinkJSONngayketiep() {
-        var a;
+        var a,b,c;
         a = document.getElementById("inputday").value;
         b = document.getElementById("inputmonth").value;
         c = document.getElementById("inputyear").value;
